@@ -31,7 +31,7 @@ img{
 
 #slider{
     position: relative;
-    -webkit-appearance: none;
+    appearance: none;
     width: calc(100% + 40px);
     height: 100%;
     margin-left: -20px;
@@ -40,7 +40,7 @@ img{
 }
 
 #slider::-webkit-slider-thumb{
-    -webkit-appearance: none;
+    appearance: none;
     height: 40px;
     width: 40px;
     background: url("slider-icon.svg"), rgba(255,255,255,0.3);
