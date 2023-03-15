@@ -13,10 +13,10 @@ body{
 }
 
 .container{
-    border: 1px solid black;
     height: 67.5vmin;
     width: 95vmin;
     position: relative;
+    overflow: hidden;
 }
 
 img{
@@ -47,4 +47,5 @@ img{
     border: 3px solid #ffffff;
     border-radius: 50%;
     background-size: contain;
+    cursor: pointer;
 }
